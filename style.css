@@ -1,0 +1,49 @@
+/*This CSS Code Written by GYANAM*/
+
+html,body {
+	padding: 10px;
+	font-weight: 600;
+	background: rgb(64,223,255);
+	background: radial-gradient(circle, rgba(64,223,255,1) 7%, rgba(255,218,122,1) 64%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%, rgba(2,0,36,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+/*.btn1 {
+	padding: 10px;
+	color: white;
+	background: red;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.btn2 {
+	padding: 10px;
+	color: white;
+	background: blue;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 600;
+}*/
+
+.form-group {
+	width: 55%;
+	padding: 10px;
+	border-radius: 10px;
+	background: white;
+	text-align: left;
+}
+
+button {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+    .form-group {
+       	width: 100%;
+		padding: 10px;
+		border-radius: 10px;
+		background: white;
+		text-align: left;
+    }
+}
